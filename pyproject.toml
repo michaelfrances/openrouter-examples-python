@@ -6,7 +6,7 @@ authors = ["OpenRouter <support@openrouter.ai>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.9,<3.12"
 langchain = "^0.0.335"
 litellm = "^0.14.1"
 openai = "^1.21.0"

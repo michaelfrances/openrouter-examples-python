@@ -4,6 +4,13 @@ from os import getenv
 
 load_dotenv()
 
+# Debug: Print environment variables
+print("Debug - Environment variables:")
+print("OPENROUTER_BASE_URL:", getenv("OPENROUTER_BASE_URL"))
+print("OPENROUTER_API_KEY:", getenv("OPENROUTER_API_KEY"))
+print("APP_URL:", getenv("APP_URL"))
+print("APP_TITLE:", getenv("APP_TITLE"))
+
 # gets API Key from environment variables
 client = OpenAI(
     base_url=getenv("OPENROUTER_BASE_URL"),
